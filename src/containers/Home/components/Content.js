@@ -156,7 +156,6 @@ export default class Content extends Component {
   }
 
   render() {
-    console.log(this.state.snake);
     return (
       <div className="content">
         <div id="stage" onKeyDown={this.onKeyDown} tabIndex="0">
@@ -171,7 +170,6 @@ export default class Content extends Component {
                         point: this.state.point === stageCol.id,
                       }
                     )}
-                    onClick={() => { console.log(stageCol.id); }}
                     key={stageCol.key}
                   />
                 )
