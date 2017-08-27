@@ -1,6 +1,10 @@
-# Simple React Start Kit 2017
+# React_Challenge_Snake_Game
 
-這個環境包可以讓你快速體驗 ReactJS 開發環境的便利，我們並沒有在裏面放入太多套件(例如 redux, karma)，希望可以讓你用最簡單的環境開始學習 React
+ReactJs 實作貪食蛇小遊戲
+
+![](https://i.imgur.com/8VjgGJq.gif)
+
+## [DEMO](https://reactmaker.github.io/react_challenge_snake_game/)
 
 ## 特色
 
@@ -19,8 +23,8 @@
 先確定好安裝了 node 4.5 以上的版本，接著就可以輸入以下指令
 
 ```bash
-$ git clone https://github.com/ReactMaker/simple_react_start_kit_2017
-$ cd simple_react_start_kit_2017
+$ git clone https://github.com/ReactMaker/react_challenge_snake_game
+$ cd react_challenge_snake_game
 $ npm install                   # Install project dependencies
 $ npm start                     # Compile and launch
 ```
