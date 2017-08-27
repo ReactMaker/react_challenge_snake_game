@@ -2,14 +2,20 @@
   border: 1px solid #ccc;
   display: flex;
   flex-direction: column;
+  margin: 20px 0;
   .stageRow{
     display: flex;
     flex-direction: row;
     .stageCol{
       width: 12px;
       height: 12px;
-      background-color: black;
-      border: 1px solid white;
+      background-color: #222;
+      &.snake, &.point{
+        background-color: white;
+      }
+      &.point{
+        background-color: red;
+      }
     }
   }
 }
